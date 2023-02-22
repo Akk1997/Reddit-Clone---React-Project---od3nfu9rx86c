@@ -1,0 +1,174 @@
+.main-post {
+    background-color: rgb(203, 197, 197);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 80vw;
+    top:0;
+    position: absolute;
+}
+
+.popup-post {
+    height: 85vh;
+    width:60vw;
+    background-color: #decfcf;
+    position: absolute;
+    box-shadow: 2px 2px #aaa;
+    border-radius: 10px;
+
+}
+
+
+.btnpost {
+    background-color: Blue;
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 100px;
+    font-size:larger;
+    border-radius: 5px;
+    margin: 10px 70px;
+    
+}
+.popup-header{
+   color: rgb(191, 72, 72);
+   font-size: larger;
+   padding: 0 10px;
+}
+.x {
+    cursor: pointer;
+}
+.x:hover {
+    border: 2px solid rgb(121, 11, 112);
+    border-radius: 10px;
+}
+.popup-title {
+    color: rgb(191, 72, 72);
+    font-size: larger;
+    padding: 0 10px;
+}
+.popup-title>textarea {
+    border: 1px solid;
+    width: 50vw;
+    height: 50vh;
+    background-color:rgb(205, 93, 93);
+    color:black;
+    font-size: larger;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+.post-btn {
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-remove {
+    color: lightslategray;
+    border: none;
+    font-size: larger;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn-remove:hover {
+    color: rgb(30, 31, 32);
+    border: none;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+.btn-save {
+    color: rgba(255, 68, 0, 0.473);
+    border: none;
+    font-size: larger;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn-save:hover {
+    color: orangered;
+    border: none;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.post-display {
+    background-color: #fff;
+    margin: 0px 70px;
+    font-family: cursive;
+    color: grey;
+
+    /* box-shadow: 5px 5px #aaa; */
+
+
+}
+
+.post-text {
+    padding: 2px 10px;
+    font-size: larger;
+    width: 70%;
+
+}
+
+
+.upvote {
+    padding: 5px;
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.downvote {
+    padding: 5px;
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+
+}
+#Delicon{
+    margin: 10px 20px;
+    align-items: center;
+}
+#btn1,#btn2{
+    border:1px solid black;
+    width : 5vw;
+}
+.fa-thumbs-down{
+    color: red;
+}
+.fa-thumbs-up {
+    color:green;
+}
+.fa-trash{
+    color : purple;
+}
+
+@media (max-width:768px) {
+    .post-display {
+        background-color: #fff;
+        margin: 0px 50px;
+        color: grey;
+
+    }
+
+    .popup-title>textarea {
+
+        padding: 0px 2px;
+    }
+
+    .popup-logIn {
+        height: 190px;
+        width: 250px;
+        right: 70px;
+    }
+
+    .popup-post {
+        height: 70vh;
+        width: 70vh;
+        
+    }
+
+}

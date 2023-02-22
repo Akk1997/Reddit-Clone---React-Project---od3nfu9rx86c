@@ -1,0 +1,22 @@
+input {
+    height: 30px;
+    width: 25%;
+    font-size: 18px;
+    margin: 5px;
+}
+
+button {
+    height: 30px;
+    width: 15%;
+    font-size: 20px;
+    margin: 5px;
+    align-content: center;
+}
+.container1{
+    align-items: center;
+    align-content: center;
+    font-family: cursive;
+    color: black; 
+    font-size: larger;
+    
+}
